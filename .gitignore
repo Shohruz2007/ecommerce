@@ -332,3 +332,14 @@ smart_city/media/
 .pytest_cache/
 .env
 .idea/
+
+# Local dev database - runtime data, never source
+db.sqlite3
+*.sqlite3
+
+# Real credentials; commit .env.sample instead
+.env.*
+!.env.sample
+
+.venv/
+.DS_Store
